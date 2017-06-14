@@ -1,0 +1,11 @@
+1. 9:00-> Password guessing, Port scanning.
+		Password guessing: Aggregate if at least 5 matching conditions are found within 2 Minutes AND these event fields are the same. 
+		Port scanning: Aggregate if at least 20 matching conditions are found within 30 Seconds AND these event fields are unique (event1.Destination Port) AND these event fields are the same. Attacker: 199.203.100.231 Destenation: 130.2.1.21.
+2. 9:11-> Zenoss: IP Service HTTP is down.
+3. 9:15-> Getting inside Apache1 server, getting list of whole services running at server by typing: ls /etc/init.d
+4. 9:20-> Adding new rule to Check Point Dashboard from Apache to 199.203.100.231
+5. 9:25-> Verify policyS
+6. 9:30-> Log of autentication, searched for attacker autenticate
+7. 9:40-> crontab -e, delete second line shutting down apache2
+8. 9:45-> service apache2 start.
+
